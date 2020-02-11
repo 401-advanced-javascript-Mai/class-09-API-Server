@@ -2,7 +2,12 @@
 
 
 const mongoose = require('mongoose');
+// require the categories  schema 
 
+/**
+ * this is the schema for product 
+ * place where we handle the information and organized
+ */
 
 const product = mongoose.Schema({
   name: { type: String, required: true },
